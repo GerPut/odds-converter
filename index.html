@@ -9,7 +9,25 @@
 </head>
 
 <body>
-    <h1>Hello</h1>
+    <div class="container">
+        <h1 class="heading">Odds Converter</h1>
+        <div class="inside-container">
+            <form class="form">
+                <label for="">Put in your odds</label>
+                <input id="Odds" type="number" onchange="getValue()">
+            </form>
+        </div>
+        <div class="display-odds">
+            <h3>American:</h3>
+            <div class="american"></div>
+            <h3>Decimal:</h3>
+            <div class="decimal"></div>
+            <h3>Fractional:</h3>
+            <div class="fractional"></div>
+            <h3>Implied:</h3>
+            <div class="implied"></div>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
