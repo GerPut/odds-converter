@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -7,13 +8,14 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #B2FEA6;
     margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Staatliches', cursive;
 }
 
 .container {
@@ -33,14 +35,27 @@ body {
     font-size: 2rem;
 }
 
+input {
+    font-size: 2rem;
+    width: 6.5rem;
+    margin-left: 0.8rem;
+}
+
+h3 {
+    margin-bottom: 0.5rem;
+}
+
 .display-odds {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    font-size: 2rem;
 }
 
-.display-odds * {
+.display-odds div {
     padding: 10px;
-    font-size: 2rem;
+    width: 140px;
+    height: 40px;
+    border: 1px solid black;
 }
